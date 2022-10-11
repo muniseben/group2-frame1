@@ -107,9 +107,6 @@ html, body {
   .row_fourth {
     background-color: rgb(254,254,254);
   }
-  .row_fifth {
-    background-color: rgb(254,254,254);
-  }
   .line{
     border-top: 10px solid salmon;
     width:30%;
@@ -143,7 +140,7 @@ html, body {
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
     margin: 5%;
-    margin-bottom: -25%
+    
   }
   #image{
     margin-top: 55px;
@@ -201,7 +198,9 @@ html, body {
   }
   
 
-
+  .row_fifth {
+    background-color: rgb(254,254,254);
+  }
   .sixth {
     background-color: #CB86A0;
   }
