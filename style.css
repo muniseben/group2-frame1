@@ -1,13 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
 html, body {
     width: 360px;
     height: 800px;
-  }
+    font-family: 'League Spartan', sans-serif;  }
 
   /*Setting font and bg color*/
   /* line 12, ../sass/_timer.scss */
   body {
     background-color:white;
-    font-family: 'Roboto', sans-serif;
+    margin: 5%;
   }
 
   .container {
@@ -107,12 +108,7 @@ html, body {
   .row_fourth {
     background-color: rgb(254,254,254);
   }
-  .line{
-    border-top: 10px solid salmon;
-    width:30%;
-    position: relative;
-    left:35%;
-  } 
+  
    #cadre{
     background-color: rgb(255,255,255);
     display: flex;
@@ -123,9 +119,10 @@ html, body {
     align-items: center;
     border: 2px solid rgb(255,255,255);
     border-radius: 25px;
-    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34); 
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(149, 22, 22, 0.34); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
-    margin: 5%;
+    /* margin: 5%; */
+    margin-bottom: 40px;
   }
   #cadreO{
     background-color: rgb(255,255,255);
@@ -139,7 +136,8 @@ html, body {
     border-radius: 25px;
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.34);
-    margin: 5%;
+    /* margin: 5%; */
+    margin-bottom: 40px;
     
   }
   #image{
@@ -162,6 +160,9 @@ html, body {
     flex-direction: column;
     text-align: center;
     font-size: 24px;
+    font-weight: lighter;
+    font-weight: lighter;
+    margin-top: 0px;
   }
   #titreT{
     display: flex;
@@ -197,22 +198,164 @@ html, body {
     margin-bottom: 25px;
   }
   
-
+  .line{
+    border-top: 10px solid salmon;
+    width:50%;
+    margin-top: 25%;
+    /* position: relative; */
+  }
   .row_fifth {
     background-color: rgb(254,254,254);
+    text-align: left;
   }
+  #titreS{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 26px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-start;
+    text-transform: capitalize;
+    
+  }
+  #subtitle{
+    position: relative;
+    top: -15px;
+    text-transform: capitalize;
+    font-weight: lighter;
+    
+  }
+  #paragraphE{
+   
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    text-transform: capitalize;
+  }
+  #written{
+    color: white;
+    font-size: 30px;
+    background: rgb(254,130,103);
+    background: linear-gradient(90deg, rgba(254,130,103,1) 31%,
+    rgba(255,125,119,1) 79%, 
+    rgba(254,115,144,1) 100%);
+    height: 60px;
+    width: 180px;
+    border: solid white 2px;
+    border-radius: 12px;
+    margin-top: 25px;
+    
+  }
+  /* changer la couleur en gradiant */
+  
   .sixth {
-    background-color: #CB86A0;
+    background-color: red;
   }
  .seventh {
-    background-color: #FDD0BC;
+    background-color: yellow;
  }
  .eight {
-    background-color: #FDEECF;
+  background-color: red
  }
  .nineth {
-    background-color: #CB86A0;
+    background-color: yellow;
  }
- .tenth{
-    background-color: #FDD0BC;
+
+
+
+ .row_tenth{
+    background-color: white;
+ }
+ #txtM{
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  text-transform: capitalize;
+ }
+ #titreM{
+  font-weight: lighter;
+ }
+ #subtitleS{
+  display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    margin-top: -10px;
+    font-size: 30px
+ }
+#photo {
+    margin-right: 5%;
+    border: solid white 0px;
+    border-radius: 12px;
+    margin-right: 5%;
+    -webkit-box-shadow: 5px 5px 15px 5px rgb(149 22 22 / 34%);
+    box-shadow: 1px 1px 1px 1px rgba(203, 202, 202, 0.34);
+ }
+ #team{
+  width: 342px;
+ }
+ #nom{
+  font-size: 20px;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: lighter;
+  position: relative;
+  top: -15px;
+  line-height: 30px;
+}
+.transparent{
+  height: 60px;
+  width: 180px;
+  position: relative;
+  left: 76px;
+  border: solid white 2px;
+  border-radius: 40px;
+  background: #aeaeae8a;
+  top: -77px;
+    
+}
+#icons{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+
+}
+ 
+
+
+
+
+
+  .eleventh {
+    background-color: yellow;
+  }
+ .twelved {
+    background-color: red;
+ }
+ .thirtheenth {
+  background-color: yellow;
+ }
+ 
+ .fourteenth {
+    background-color: red;
+ }
+ .fifteenth{
+    background-color: yellow;
+ }
+  .sixteenth {
+    background-color: red ;
+  }
+ .seventeenth {
+    background-color: yellow;
+ }
+ .eighteenth {
+  background-color: red;
+ }
+ 
+ .nineteenth {
+    background-color: yellow;
  }
