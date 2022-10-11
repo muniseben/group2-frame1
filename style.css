@@ -89,14 +89,14 @@ html, body {
     transform: rotate(-30deg);
   }
 
-  /* .row {
-    height: 500px;
-  } */
+  .row {
+    height: 100px;
+  }
 
   .first {
     height: 500px;
     background-image: url('images/banner-bg.svg');
-    background-size: cover;
+    background-size:cover;
     background-color: #fff;
 
   }
@@ -118,16 +118,15 @@ html, body {
   }
 
   #basic {
-    src: url();
+    position: relative;
     text-align: center;
     color: #fff;
-    top: 73px;
+    top: 70px;
     font-size: 15px;
   }
 
   #kickstart {
-
-    src: url(fonts/LineIcons.svg);
+    position: relative;
     text-align: center;
     color: #fff;
     top: 75px;
@@ -135,12 +134,11 @@ html, body {
   }
 
   #other {
+    position: relative;
     text-align: center;
     color: #fff;
-    top: 85px;
-    font-size: 13px;
-    src: url(fonts/fontawesome-webfont.svg);
-
+    margin-top: 95px;
+    font-size: 12px;
   }
 
   #button {
@@ -159,7 +157,7 @@ html, body {
   }
   .fourth {
     background-color: #CB86A0;
-  } */
+  }
   .fifth {
     background-color: #E6A6A8;
   }
