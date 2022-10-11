@@ -5,6 +5,7 @@ html, body {
 
   /*Setting font and bg color*/
   /* line 12, ../sass/_timer.scss */
+
   body {
     background-color: #fff;
     font-family: 'Roboto', sans-serif;
@@ -15,7 +16,7 @@ html, body {
   }
 
   .hamburger-container {
-    background-color: #FD898A;
+
     width: 200px;
     height: 200px;
     position: relative;
@@ -32,11 +33,11 @@ html, body {
   .hamburger {
     width: 22px;
     position: absolute;
-    left: 142px;
+    left: 441px;
     border-top: 2px solid #fff;
     cursor: pointer;
     z-index: 1;
-    top: 136px;
+    top: 155px;
   }
 
   .hamburger:after {
@@ -88,21 +89,68 @@ html, body {
     transform: rotate(-30deg);
   }
 
-  .row {
-    height: 340px;
-  }
+  /* .row {
+    height: 500px;
+  } */
+
   .first {
+    height: 500px;
     background-image: url('images/banner-bg.svg');
     background-size: cover;
-    background-color: #fff
+    background-color: #fff;
+
   }
 
-  img {
+  #pc {
     position: absolute;
-    left: 0px;
-    top: 0px;
+    left: 25px;
+    top: 280px;
+    width: 90%;
     z-index: 4;
   }
+
+  #logo {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    width: 30%;
+    z-index: 4;
+  }
+
+  #basic {
+    src: url();
+    text-align: center;
+    color: #fff;
+    top: 73px;
+    font-size: 15px;
+  }
+
+  #kickstart {
+
+    src: url(fonts/LineIcons.svg);
+    text-align: center;
+    color: #fff;
+    top: 75px;
+    font-size: 18px;
+  }
+
+  #other {
+    text-align: center;
+    color: #fff;
+    top: 85px;
+    font-size: 13px;
+    src: url(fonts/fontawesome-webfont.svg);
+
+  }
+
+  #button {
+    position:absolute;
+    left: 120px;
+    top: 200px;
+    width: 35%;
+    z-index: 4;
+  }
+
   .second {
     background-color: #FDD0BC;
   }
@@ -111,7 +159,7 @@ html, body {
   }
   .fourth {
     background-color: #CB86A0;
-  }
+  } */
   .fifth {
     background-color: #E6A6A8;
   }
