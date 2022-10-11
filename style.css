@@ -1,12 +1,12 @@
 html, body {
-    width: 100%;
-    height: 100%;
+  width: 360px;
+  height: 800px;
   }
 
   /*Setting font and bg color*/
   /* line 12, ../sass/_timer.scss */
   body {
-    background-color: #322830;
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
   }
 
@@ -89,10 +89,19 @@ html, body {
   }
 
   .row {
-    height: 140px;
+    height: 340px;
   }
   .first {
-    background-color: #FDEECF;
+    background-image: url('images/banner-bg.svg');
+    background-size: cover;
+    background-color: #fff
+  }
+
+  img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 4;
   }
   .second {
     background-color: #FDD0BC;
