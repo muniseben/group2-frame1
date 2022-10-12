@@ -143,6 +143,7 @@ html, body {
   #image{
     margin-top: 55px;
     margin-bottom: 35px;
+    
   }
   
   #titre{
@@ -282,6 +283,7 @@ html, body {
  }
  #titreM{
   font-weight: lighter;
+  font-size: 27px;
  }
  #subtitleS{
   display: flex;
@@ -344,11 +346,14 @@ html, body {
     margin-bottom: 45%;
  }
  .thirtheenth {
-  background-color: blue;
+  margin-bottom: 45%;
  }
+ 
  
  .fourteenth {
     margin-bottom: 65%;
+    display: flex;
+    flex-direction: column;
  }
  #soustxt{
   display: flex;
