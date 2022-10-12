@@ -150,7 +150,7 @@ html, body {
 }
 
 .row-last {
-  height: 1150px;
+  height: 1200px;
   background-image: url('images/footer-bg.svg');
   background-size:cover;
  }
@@ -196,7 +196,7 @@ input[type=text], input[type=submit] {
   color: rgb(253, 252, 252);
   font-size: 1.2em;
   padding: 0.8em;
-  top:450px;
+  top:400px;
 
 }
 
@@ -204,7 +204,7 @@ input[type=text], input[type=submit] {
   position: relative;
   display: block;
   padding: 0.8em;
-  top:250px;
+  top:200px;
 }
 
 
@@ -216,7 +216,7 @@ input[type=text], input[type=submit] {
   padding: 0.8em;
   margin: 10px;
   font-size: 1.2em;
-  top: 400px;
+  top: 300px;
 }
 
 .last-footer{
@@ -356,7 +356,6 @@ hr{
   .line{
     border-top: 10px solid salmon;
     width:50%;
-    margin-top: 25%;
   }
   .fifth {
     text-align: left;
