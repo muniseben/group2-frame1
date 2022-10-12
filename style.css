@@ -8,7 +8,7 @@ html, body {
 
   body {
     background-color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Quicksand', sans-serif;
   }
 
   .container {
@@ -98,7 +98,6 @@ html, body {
     background-image: url('images/banner-bg.svg');
     background-size:cover;
     background-color: #fff;
-
   }
 
   #pc {
@@ -122,22 +121,25 @@ html, body {
     text-align: center;
     color: #fff;
     top: 70px;
-    font-size: 15px;
+    font-size: 18px;
+
   }
 
   #kickstart {
     position: relative;
     text-align: center;
     color: #fff;
-    top: 75px;
-    font-size: 18px;
+    top: 51px;
+    font-size: 21px;
+    font-weight: bold;
+
   }
 
   #other {
     position: relative;
     text-align: center;
     color: #fff;
-    margin-top: 95px;
+    margin-top: 90px;
     font-size: 12px;
   }
 
@@ -165,14 +167,50 @@ html, body {
     background-color: #CB86A0;
   }
  .seventh {
-    background-color: #FDD0BC;
+  height: 600px;
+  background-color: #fff;
  }
- .eight {
-    background-color: #FDEECF;
- }
- .nineth {
-    background-color: #CB86A0;
- }
- .tenth{
-    background-color: #FDD0BC;
- }
+
+#crafted {
+    position: relative;
+    text-align: left;
+    color: rgb(50, 50, 50);
+    font-size: 20px;
+}
+#lorem {
+  position: relative;
+  text-align:left;
+  color: rgb(50, 50, 50);
+  top: 5px;
+  font-size: 13px;
+}
+
+#try {
+  position:absolute;
+  left: 0px;
+  top: 1220px;
+  width: 35%;
+  z-index: 4;
+}
+
+#pic {
+  position: absolute;
+  left: 25px;
+  top: 1320px;
+  width: 90%;
+  z-index: 3;
+}
+
+#video {
+  position: absolute;
+  left: 25px;
+  top: 1660px;
+  width: 90%;
+  z-index: 4;
+}
+
+#dot {
+  position: absolute;
+  top: 1693px;
+  width: 90%;
+}
