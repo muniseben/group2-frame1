@@ -41,7 +41,7 @@ html, body {
 
   .row {
     height: 200px;
-    
+
   }
 
   .first {
@@ -72,9 +72,6 @@ html, body {
     left: 310px;
     top: 15px;
     width: 10%;
-    z-index: 1;
-
-
   }
 
   #basic {
@@ -133,9 +130,9 @@ html, body {
 
 #subs {
   position:absolute;
-  left: 17px;
+  left: 8px;
   width: 95%;
-  top: 79%;
+  top: 71%;
 }
 
 #pic {
@@ -153,7 +150,7 @@ html, body {
 }
 
 .row-last {
-  height: 1250px;
+  height: 1150px;
   background-image: url('images/footer-bg.svg');
   background-size:cover;
  }
@@ -193,27 +190,33 @@ input[type=text], input[type=submit] {
   padding: 0.8em;
 }
 
-#text {
+#textsub {
+  position: relative;
   text-align:left;
   color: rgb(253, 252, 252);
   font-size: 1.2em;
   padding: 0.8em;
+  top:450px;
 
 }
 
-.icons{
+.iconssub{
+  position: relative;
   display: block;
   padding: 0.8em;
+  top:250px;
 }
 
 
 .sources {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   color: #fff;
   padding: 0.8em;
   margin: 10px;
   font-size: 1.2em;
+  top: 400px;
 }
 
 .last-footer{
@@ -248,7 +251,7 @@ hr{
 
 
    /* .row {
-    height: 300px; 
+    height: 300px;
   } */
   .third {
     background-color: rgb(254,254,254);
@@ -303,6 +306,7 @@ hr{
     flex-wrap: nowrap;
     align-content: stretch;
     align-items: center;
+    margin-top:30px ;
   }
   #h4{
     display: flex;
@@ -355,7 +359,6 @@ hr{
     margin-top: 25%;
   }
   .fifth {
-    
     text-align: left;
   }
   #titreS{
@@ -398,15 +401,12 @@ hr{
   }
   /* changer la couleur en gradiant */
 
-
  .line2{
-
   border-top: 10px solid salmon;
   width: 50%;
   top: 285px;
   margin-left: 25%;
  }
-
 
  #txtM{
   display: flex;
@@ -478,7 +478,7 @@ hr{
     margin-bottom: 50px;
   }
 
- 
+
  .eight {
     display: flex;
     flex-direction: column;
@@ -491,7 +491,7 @@ hr{
  }
  .tenth{
     margin-bottom: -137%;
-    margin-top: 853px;
+    margin-top: 653px;
  }
 
   .eleventh {
@@ -504,7 +504,7 @@ hr{
  }
  /* .thirtheenth {
   margin-bottom: 5%;
-  background-color: black; 
+  background-color: black;
  } */
  .thirtheenth {
     margin-bottom:90%;
@@ -571,7 +571,7 @@ hr{
 
  .fifteenth{
   margin-bottom: 5%;
-  
+
  }
   .sixteenth {
   margin-bottom: 5%;
